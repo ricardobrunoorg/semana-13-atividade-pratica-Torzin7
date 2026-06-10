@@ -1,18 +1,129 @@
 {
-  "usuarios": [
-    {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
-    },
-    {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
-    }
-  ]
+"filmes": [
+{
+"id": 1,
+"nome": "Interestelar",
+"descricaoCurta": "Uma viagem pelo espaço para salvar a humanidade.",
+"descricaoCompleta": "Em um futuro próximo, a Terra enfrenta uma crise global. Um grupo de astronautas atravessa um buraco de minhoca em busca de um novo lar para a humanidade.",
+"imagem": "https://picsum.photos/300/200?1",
+"categoria": "Ficção Científica",
+"preco": 19.90,
+"tags": ["espaco", "nolan", "aventura"],
+"destaque": true
+},
+{
+"id": 2,
+"nome": "O Poderoso Chefão",
+"descricaoCurta": "A história da família Corleone.",
+"descricaoCompleta": "Clássico do cinema que acompanha a ascensão e os conflitos da poderosa família mafiosa Corleone.",
+"imagem": "https://picsum.photos/300/200?2",
+"categoria": "Drama",
+"preco": 14.90,
+"tags": ["mafia", "crime"],
+"destaque": true
+},
+{
+"id": 3,
+"nome": "Batman Begins",
+"descricaoCurta": "A origem do Cavaleiro das Trevas.",
+"descricaoCompleta": "Bruce Wayne retorna a Gotham para combater o crime e enfrentar a corrupção da cidade.",
+"imagem": "https://picsum.photos/300/200?3",
+"categoria": "Ação",
+"preco": 12.90,
+"tags": ["heroi", "dc"],
+"destaque": false
+},
+{
+"id": 4,
+"nome": "Vingadores Ultimato",
+"descricaoCurta": "A batalha final contra Thanos.",
+"descricaoCompleta": "Os heróis restantes unem forças para restaurar o universo após os acontecimentos de Guerra Infinita.",
+"imagem": "https://picsum.photos/300/200?4",
+"categoria": "Ação",
+"preco": 18.90,
+"tags": ["marvel", "herois"],
+"destaque": true
+},
+{
+"id": 5,
+"nome": "Toy Story",
+"descricaoCurta": "Brinquedos ganham vida.",
+"descricaoCompleta": "Woody e Buzz Lightyear vivem aventuras enquanto tentam voltar para seu dono.",
+"imagem": "https://picsum.photos/300/200?5",
+"categoria": "Animação",
+"preco": 9.90,
+"tags": ["pixar", "familia"],
+"destaque": false
+},
+{
+"id": 6,
+"nome": "Titanic",
+"descricaoCurta": "Um romance em meio a uma tragédia.",
+"descricaoCompleta": "Jack e Rose se apaixonam durante a viagem inaugural do Titanic.",
+"imagem": "https://picsum.photos/300/200?6",
+"categoria": "Romance",
+"preco": 11.90,
+"tags": ["romance", "drama"],
+"destaque": false
+},
+{
+"id": 7,
+"nome": "Avatar",
+"descricaoCurta": "A aventura em Pandora.",
+"descricaoCompleta": "Um ex-fuzileiro participa de uma missão em um planeta distante habitado pelos Na'vi.",
+"imagem": "https://picsum.photos/300/200?7",
+"categoria": "Ficção Científica",
+"preco": 16.90,
+"tags": ["pandora", "aventura"],
+"destaque": true
+},
+{
+"id": 8,
+"nome": "Shrek",
+"descricaoCurta": "O ogro mais famoso do cinema.",
+"descricaoCompleta": "Shrek embarca em uma jornada para resgatar uma princesa e recuperar seu pântano.",
+"imagem": "https://picsum.photos/300/200?8",
+"categoria": "Animação",
+"preco": 8.90,
+"tags": ["comedia", "familia"],
+"destaque": false
+},
+{
+"id": 9,
+"nome": "Matrix",
+"descricaoCurta": "A realidade não é o que parece.",
+"descricaoCompleta": "Neo descobre que o mundo é uma simulação controlada por máquinas.",
+"imagem": "https://picsum.photos/300/200?9",
+"categoria": "Ficção Científica",
+"preco": 15.90,
+"tags": ["acao", "cyberpunk"],
+"destaque": true
+},
+{
+"id": 10,
+"nome": "Gladiador",
+"descricaoCurta": "Vingança no Império Romano.",
+"descricaoCompleta": "Um general romano traído busca vingança lutando como gladiador.",
+"imagem": "https://picsum.photos/300/200?10",
+"categoria": "Ação",
+"preco": 13.90,
+"tags": ["roma", "historico"],
+"destaque": false
+}
+],
+
+"categorias": [
+{ "id": 1, "nome": "Ação" },
+{ "id": 2, "nome": "Drama" },
+{ "id": 3, "nome": "Ficção Científica" },
+{ "id": 4, "nome": "Animação" }
+],
+
+"avaliacoes": [
+{
+"id": 1,
+"filmeId": 1,
+"nota": 5
+}
+]
 }
